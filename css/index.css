@@ -1,0 +1,84 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151418;
+  font-weight: 400;
+  font-family: "Teko", sans-serif;
+  width: 1160px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.container {
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 13.7rem 0 15.7rem 0;
+}
+
+.row {
+  display: flex;
+}
+
+header {
+  margin-bottom: 15.5rem;
+}
+header .logotype {
+  margin-bottom: 1rem;
+}
+header .title {
+  max-width: 65rem;
+  line-height: 18rem;
+  font-size: 18rem;
+  font-weight: 300;
+  color: #17A1CC;
+}
+header .title span {
+  color: #ffffff;
+}
+
+.main-item {
+  background: rgba(34, 36, 43, 0.8);
+  padding: 5.4rem 5.4rem 6.7rem 5.7rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+.main-item__image {
+  margin-right: 6rem;
+}
+.main-item-content {
+  font-weight: 400;
+}
+.main-item-content__number {
+  color: #17A1CC;
+  font-size: 2.4rem;
+}
+.main-item-content__title {
+  font-size: 7.2rem;
+  font-weight: 400;
+}
+.main-item-content__text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  margin-bottom: 4.4rem;
+}
+.main-item-content-panel {
+  align-items: center;
+}
+.main-item-content-panel > div {
+  margin-right: 3.6rem;
+  font-weight: 400;
+  align-items: center;
+}
+.main-item-content-panel > div svg {
+  margin-right: 1.5rem;
+}
