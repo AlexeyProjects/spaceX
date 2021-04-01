@@ -32,9 +32,7 @@
 			<div class="main-list">
 				<div class="main-item row" v-for="value in missions">
 					
-					<div class="circle main-item__image">
-						<img v-if="value.image" :src="value.image" alt="Image"/>
-					</div>
+					<img v-if="value.image" :src="value.image" class="main-item__image" alt="Image"/>
 					<div class="main-item-content">
 						<div class="main-item-content__number">{{ value.number }}</div>
 						<h2 class="main-item-content__title">{{ value.title }}</h2>
