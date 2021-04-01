@@ -54,6 +54,15 @@ header .title span {
 }
 .main-item__image {
   margin-right: 6rem;
+  border-radius: 50%;
+  padding: 2rem;
+  background: rgba(23, 161, 204, 0.7);
+}
+.main-item__image img {
+  transition: 5s;
+}
+.main-item__image img:hover {
+  transform: scale(1.1);
 }
 .main-item-content {
   font-weight: 400;
@@ -81,4 +90,11 @@ header .title span {
 }
 .main-item-content-panel > div svg {
   margin-right: 1.5rem;
+}
+.main-item-content-panel > div svg path {
+  transition: 0.4s;
+}
+.main-item-content-panel > div svg:hover path {
+  fill: #ffffff;
+  cursor: pointer;
 }
